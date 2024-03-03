@@ -1,2 +1,2 @@
 require('init')
-require('after.plugins.telescope')
+require('after')
