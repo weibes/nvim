@@ -1,3 +1,3 @@
+require('config.remaps')
 require('init.lazy')
-require('init.remaps')
-require('init.vimsettings')
+require('config.vimsettings')

@@ -9,15 +9,10 @@ if not vim.loop.fs_stat(lazypath) then
   lazypath,
   })
 end
+-- TODO: Figrue out how to lay this out properly with plugins folder. idk.
 plugins = 
 {
-  {
-    'craftzdog/solarized-osaka.nvim',
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
-  'lewis6991/gitsigns.nvim'
+  import = 'plugins',
 }
 vim.opt.rtp:prepend(lazypath)
 
