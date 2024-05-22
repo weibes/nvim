@@ -11,3 +11,4 @@ To use, pretty much just throw this into your nvim config folder.
 - Figure out how to use gitsigns better
 - figure out telescipe better
 - refactor configs to not have lua/after/ folder
+- create a setup.sh script (one existing was me thinking abt building one and then not)
