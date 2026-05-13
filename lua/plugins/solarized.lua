@@ -1,4 +1,0 @@
-return
-{
-'shaunsingh/solarized.nvim'
-}

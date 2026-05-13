@@ -30,7 +30,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = { "ts_ls", "eslint" },
+  ensure_installed = { "ts_ls", "eslint", "clangd", "gopls", "rust_analyzer" },
   handlers = {
     lsp_zero.default_setup,
     -- ts_ls is handled by typescript-tools.nvim — skip auto-setup to avoid conflicts

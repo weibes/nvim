@@ -9,6 +9,10 @@ return {
       javascriptreact = { "prettierd", "prettier", stop_after_first = true },
       typescriptreact = { "prettierd", "prettier", stop_after_first = true },
       json            = { "prettierd", "prettier", stop_after_first = true },
+      c               = { "clang-format" },
+      cpp             = { "clang-format" },
+      go              = { "goimports", "gofumpt" },
+      rust            = { "rustup" },
     },
     format_on_save = {
       timeout_ms = 500,

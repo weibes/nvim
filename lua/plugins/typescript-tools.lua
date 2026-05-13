@@ -15,10 +15,10 @@ return {
     },
   },
   keys = {
-    { "<leader>ti", "<cmd>TSToolsAddMissingImports<CR>", desc = "TS: Add missing imports" },
-    { "<leader>to", "<cmd>TSToolsOrganizeImports<CR>", desc = "TS: Organize imports" },
-    { "<leader>tu", "<cmd>TSToolsRemoveUnusedImports<CR>", desc = "TS: Remove unused imports" },
-    { "<leader>tr", "<cmd>TSToolsRenameFile<CR>", desc = "TS: Rename file + update imports" },
-    { "<leader>tf", "<cmd>TSToolsFixAll<CR>", desc = "TS: Fix all" },
+    { "<leader>ti", "<cmd>TSToolsAddMissingImports<CR>", desc = "JS/TS: Add missing imports" },
+    { "<leader>to", "<cmd>TSToolsOrganizeImports<CR>", desc = "JS/TS: Organize imports" },
+    { "<leader>tu", "<cmd>TSToolsRemoveUnusedImports<CR>", desc = "JS/TS: Remove unused imports" },
+    { "<leader>tr", "<cmd>TSToolsRenameFile<CR>", desc = "JS/TS: Rename file + update imports" },
+    { "<leader>tf", "<cmd>TSToolsFixAll<CR>", desc = "JS/TS: Fix all" },
   },
 }
