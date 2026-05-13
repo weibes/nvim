@@ -9,13 +9,8 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
--- TODO: Figrue out how to lay this out properly with plugins folder. idk.
-plugins = 
-{
-  import = 'plugins',
-}
+local plugins = { import = 'plugins' }
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup(plugins, opts)
-require("solarized-osaka")
 
