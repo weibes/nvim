@@ -25,6 +25,7 @@ Leader key: `<Space>`
 | `<leader>fg` | Find git-tracked files             |
 | `<leader>fs` | Live grep (search text in project) |
 | `<leader>fS` | Grep string under cursor           |
+| `<leader>fb` | Browse open buffers                |
 
 ---
 
