@@ -10,7 +10,10 @@ Leader key: `<Space>`
 |--------------------|----------------------------------|
 | `<leader>fd`       | Open file explorer (netrw)       |
 | `<leader>wh/j/k/l` | Move to left/down/up/right split |
-| `<leader>nt`       | New tab                          |
+| `<leader>nb`       | New buffer                       |
+| `]b`               | Next buffer                      |
+| `[b`               | Previous buffer                  |
+| `<leader>bd`       | Delete (close) buffer            |
 
 ---
 
