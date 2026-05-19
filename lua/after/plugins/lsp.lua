@@ -14,14 +14,6 @@ lsp_zero.on_attach(function(client, bufnr)
   vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, vim.tbl_extend('force', opts, { desc = "LSP: Prev diagnostic" }))
   vim.keymap.set('n', ']d', vim.diagnostic.goto_next, vim.tbl_extend('force', opts, { desc = "LSP: Next diagnostic" }))
 
-  -- eslint: auto-fix on save
-  if client.name == "eslint" then
-    vim.api.nvim_create_autocmd("BufWritePre", {
-      buffer = bufnr,
-      command = "EslintFixAll",
-    })
-  end
-
   -- inlay hints (nvim 0.10+)
   if client.supports_method("textDocument/inlayHint") then
     vim.lsp.inlay_hint.enable(true, { bufnr = bufnr })
