@@ -56,12 +56,13 @@ These activate when a language server attaches to a buffer.
 | Rust                | `rust_analyzer`                                | Cargo projects work OOTB                               |
 | Scala / sbt         | `metals` (via nvim-metals)                     | Auto-attaches on file open                             |
 
-### Format-on-save (via conform.nvim)
+### Manual formatting (via conform.nvim)
+
+Format-on-save is disabled. Use `<leader>cf` to format the current buffer on demand.
 
 | Filetype                   | Formatter                         |
 |----------------------------|-----------------------------------|
 | JS / TS / JSX / TSX / JSON | `prettierd` → `prettier` fallback |
-| Scala                      | `scalafmt`                        |
 | C / C++                    | `clang-format`                    |
 | Go                         | `goimports` → `gofumpt`           |
 | Rust                       | `rustfmt`                         |

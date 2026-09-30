@@ -3,6 +3,10 @@ return {
   dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
   ft = { "javascript", "javascriptreact", "typescript", "typescriptreact" },
   opts = {
+    handlers = {
+      -- suppress all tsserver diagnostics (type errors, lint noise, etc.)
+      ["textDocument/publishDiagnostics"] = function() end,
+    },
     settings = {
       expose_as_code_action = "all",
       complete_function_calls = true,
